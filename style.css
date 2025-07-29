@@ -5,7 +5,70 @@ body {
   padding: 0;
 }
 
-/* Header (Coder 1) */
+
+.contenedor{
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle,#00f,#0ff);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor .estilos{
+    font-family:fantasy;
+    width: 300px;
+    color: aquamarine;
+    transition: .3s;
+}
+.contenedor .estilos:hover{
+    color: black;
+}
+
+ /* start coder 6 */
+footer{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+footer a{
+    color: #ecf0f6;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#copyright{
+    color: #838383;
+    margin-top: 20px;
+}
+ /* end coder 6 */
+
+ 
+ /* start coder 25*/
+ #riwi_logo{
+    border-radius: 50%;
+ }
+/* end coder 25 */
+
+
+.output-- {
+    width: 15%;
+    padding: 1rem;
+    color: cyan;
+    gap: 1rem;
+    background-color: rgb(34, 33, 33);
+    border-radius: 1.25rem;
+    border: 2px solid cyan;
+    box-shadow: 0px 0px 15px cyan
+    0px 0px 15px cyan inset;
+}
+
+
 header {
   background-color: #4CAF50;
   color: white;
@@ -80,3 +143,51 @@ main {
 section, article {
   margin-bottom: 2rem;
 }
+
+    /* Puedes mover esto a style.css */
+aside {
+  background-color: #f0f0f0;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  aside {
+    display: none;
+  }
+}
+figure{
+width: 100%;
+display: flex
+;
+flex-direction: column;
+align-items: center;
+
+}
+footer ul{
+   display: flex;
+}
+figcaption{
+display: flex ;
+font-size: 3vh;
+justify-content: center;
+text-decoration: overline;
+position: relative;
+bottom: 100px;
+color: white;
+}
+figure img {
+    width: 70vw;
+  border-radius: 50px;
+  display: flex;
+}
+
+.footer-img{
+    width: 20px;
+    border-radius: 100%;
+}
+
+address a{
+    display:flex;
+    justify-content: center;
+}
+
