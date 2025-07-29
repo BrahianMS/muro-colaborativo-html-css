@@ -73,7 +73,7 @@ header {
   background-color: #4CAF50;
   color: white;
   text-align: center;
-  padding: 1rem;
+  padding: 0 0 1rem 0;
   width: 100%;
 }
 
@@ -234,7 +234,6 @@ aside {
   }
 }
 figure{
-width: 100%;
 display: flex
 ;
 flex-direction: column;
@@ -254,7 +253,7 @@ bottom: 100px;
 color: white;
 }
 figure img {
-    width: 70vw;
+    width: 100%;
   border-radius: 50px;
   display: flex;
 }
